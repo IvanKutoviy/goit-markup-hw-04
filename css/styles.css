@@ -193,7 +193,7 @@ color: #404BBF;
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.04em;
-            background-color: #404BBF;
+            background-color: #404BBF 250ms cubic-bezier(0.4, 0, 0.2, 1);
             cursor: pointer;
             border-radius: 4px;
                 background: var(--IRIS, #4D5AE5);
@@ -205,10 +205,7 @@ color: #404BBF;
                     
  }
 
- .hero-order-btn:hover {
-    background-color: #404BBF
- }
-
+ .hero-order-btn:hover,
  .hero-order-btn:focus {
     background-color: #404BBF
  }
