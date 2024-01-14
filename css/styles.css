@@ -58,7 +58,7 @@ border-bottom: 1px solid #E7E9FC;
 .header-container {
 display: flex;
 align-items: center;
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 
 .header-navigator {
@@ -106,7 +106,6 @@ align-items: center;
     padding-bottom: 24px;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .header-nav-link:hover,
@@ -155,7 +154,8 @@ gap: 40px;
 }
  .header-address-contakt-link:hover,
  .header-address-contakt-link:focus {
-color: #404BBF;
+    color: #404BBF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
  }
 
 /**--------------------------------------------*/
