@@ -375,27 +375,29 @@ color: #404BBF;
  .icon-item {
     width: 40px;
     height: 40px;
+    box-shadow:  1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
  .icon-inside {
-    display: flex;
-        background-color: #4D5AE5;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        max-height: 100%;
-        max-width: 100%;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd;
 }
 
 .icon-item-fon {
   fill: #F4F4FD;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-inside:hover {
+.icon-inside:hover,
+.icon-inside:focus {
     background-color: #31D0AA;
 }
 
@@ -553,13 +555,12 @@ color: #4D5AE5;
 }
 
 .container {
-margin-right: 120px;
+margin-left: 156px;
 }
 
 .footer-container-link {
 margin-left: auto;
 font-style: normal;
-margin-right: 120px;
 
 }
 
@@ -576,13 +577,13 @@ margin-right: 120px;
 .footer-icon {
 display: flex;
 gap: 16px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .footer-icon-link {
 width: 40px;
 height: 40px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg {
