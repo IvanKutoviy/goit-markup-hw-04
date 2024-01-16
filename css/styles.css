@@ -328,7 +328,6 @@ color: #404BBF;
  .team-list {
     display: flex;
     gap: 24px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
  }
 
@@ -336,8 +335,9 @@ color: #404BBF;
     border-radius: 0px 0px 4px 4px;
     margin-right: 0;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
  }
 
@@ -404,6 +404,7 @@ display: flex;
 .icon-item-fon:hover,
 .icon-item-fon:focus {
     background-color: #404bbf;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -523,6 +524,7 @@ padding-bottom: 120px;
     background: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+   
 }
 
 .footer-logo {
@@ -536,6 +538,7 @@ color: #4D5AE5;
     text-transform: uppercase;
     margin-bottom: 16px;
     display: inline-block;
+    
 }
 
 .footer-logo-part {
@@ -547,6 +550,7 @@ color: #4D5AE5;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        
 }
 
 .footer-tagline {
@@ -557,6 +561,7 @@ color: #4D5AE5;
         line-height: 1.50;
         letter-spacing: 0.02em;
         width: 264px;
+        
 }
 
 .container {
@@ -566,6 +571,7 @@ margin-left: 156px;
 .footer-container-link {
 margin-left: auto;
 font-style: normal;
+margin-right: 120px;
 
 }
 
