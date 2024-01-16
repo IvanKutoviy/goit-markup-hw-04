@@ -566,12 +566,13 @@ color: #4D5AE5;
 
 .container {
 margin-left: 156px;
+
 }
 
 .footer-container-link {
-margin-left: auto;
+margin-left: 120px;
+margin-right: 692px;
 font-style: normal;
-margin-right: 120px;
 
 }
 
