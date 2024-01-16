@@ -507,9 +507,16 @@ padding-bottom: 120px;
  /*-------------------footer------------------*/
 
 .footer {
+    
+}
+
+.footer-all {
+    display: flex;
+    align-items: baseline;
     background: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-right: 120px;
 }
 
 .footer-logo {
