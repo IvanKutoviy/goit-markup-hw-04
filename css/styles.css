@@ -52,6 +52,9 @@ img {
 
 .header {
 border-bottom: 1px solid #E7E9FC;
+box-shadow: 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -118,9 +121,7 @@ align-items: center;
 .current {
 position: relative;
 color: #404BBF;
-box-shadow: 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
+
 
 }
 
@@ -541,18 +542,11 @@ color: #4D5AE5;
 }
 
 .footer-container-link {
-display: flex;
+
 }
 
 .footer-social {
-color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    width: 96px;
-    height: 24px;
+
 }
 
 .footer-icon {
@@ -568,5 +562,5 @@ color: #FFF;
 }
 
 .footer-icon-svg {
-
+    
 }
