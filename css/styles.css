@@ -571,6 +571,7 @@ margin-left: 156px;
 .footer-container-link {
 margin-left: auto;
 font-style: normal;
+margin-right: 120px;
 
 }
 
@@ -587,7 +588,6 @@ font-style: normal;
 .footer-icon {
 display: flex;
 gap: 16px;
-margin-right: 120px;
 
 }
 
