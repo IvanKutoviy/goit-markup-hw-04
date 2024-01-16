@@ -443,19 +443,6 @@ padding-bottom: 120px;
     overflow: hidden;
  }
 
- .services-list-item-wrap{
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    padding: 40px 32px 164px 32px;
-    background: #4D5AE5;
-    height: 100%;
-    transform: translateY(100%);
-    transition: transform 300ms linear;
- }
-
-
  .services-list-name {
     color: #2E2F42;
         font-size: 20px;
@@ -476,6 +463,7 @@ padding-bottom: 120px;
  }
 
 .services-list-ourline-text {
+    position: absolute;
     color: #F4F4FD;
         font-size: 16px;
         font-style: normal;
@@ -486,6 +474,9 @@ padding-bottom: 120px;
 }
 
 .services-list-item-outline {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
