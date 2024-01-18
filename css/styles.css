@@ -527,18 +527,15 @@ padding-bottom: 120px;
 .footer-container {
     display: flex;
     align-items: baseline;
-    
-
 }
 
 .footer-all {
-    
+    margin-right: 120px;
 }
 
 .footer-container-link {
-    margin-left: auto;
     font-style: normal;
-    margin-right: 120px;
+    
 }
 
 .footer-logo {
